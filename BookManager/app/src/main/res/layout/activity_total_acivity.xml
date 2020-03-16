@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.TotalAcivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/thongke" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/tvNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê ngày" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/tvThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê tháng" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/tvNam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê năm" />
+
+</LinearLayout>
