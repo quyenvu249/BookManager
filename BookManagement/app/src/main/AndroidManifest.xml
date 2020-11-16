@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bookicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookManagement">
+        <activity android:name=".activity.AddDetailBillActivity"></activity>
+        <activity
+            android:name=".activity.DetailBillActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.AddBillActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.AddBookActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.AddCategoryActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.BestSellerActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.AnalystActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.UserActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.BillActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.CategoryActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.BookActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.SignupActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.BookManagement.NoActionBar" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
